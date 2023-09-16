@@ -1,5 +1,3 @@
-
-
 main_set = set()
 reverse_set = set()
 num_words = int(input("Enter the number of words: "))
