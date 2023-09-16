@@ -1,3 +1,4 @@
+
 outputList = []
 for number_of_testCase in range(int(input("Enter te number of test Case: "))):
     length_ofArray = int(input("Enter the number of Element: "))
