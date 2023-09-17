@@ -1,3 +1,4 @@
+
 main_set = set()
 reverse_set = set()
 for i in range(int(input("Enter the number of word: "))):
