@@ -12,9 +12,8 @@ def check():
 
 for i in range(int(input("Enter the number of test case: "))):
     size = list(map(int, input('Enter the size of Carpet: ').split()))
-    if size[1] > 3:
-        for y in range(0, size[0]):
-            alpha_list.append(input("Enter the word: "))
+    for y in range(0, size[0]):
+        alpha_list.append(input("Enter the word: "))
 
 check()
 
