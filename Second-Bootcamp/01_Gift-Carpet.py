@@ -11,10 +11,9 @@ for _ in range(number_of_testCase):
                 if fov_word[x] == my_word[x]:
                     favrit_word.add(fov_word[x])
 
-    for i in range(number_of_testCase):
-        size = list(map(int, input('Enter the size of Carpet: ').split()))
-        for y in range(0, size[0]):
-            alpha_list.append(input("Enter the word: "))
+    size = list(map(int, input('Enter the size of Carpet: ').split()))
+    for y in range(0, size[0]):
+        alpha_list.append(input("Enter the word: "))
     check()
     for i in range(number_of_testCase):
         if len(favrit_word) == 4:
@@ -23,3 +22,6 @@ for _ in range(number_of_testCase):
             result_list.append("No")
 
 print(*result_list)
+
+
+
