@@ -1,5 +1,5 @@
-x = 12
-c = complex(x)
-print(c)
+number = 12
+casting = complex(number)
+print(casting)
 
 
